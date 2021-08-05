@@ -1,7 +1,7 @@
 {
     "name": "hw10-oop",
     "version": "1.0.0",
-    "description": "team profile generator",
+    "description": "team profile builder",
     "main": "index.js",
     "directories": {
         "lib": "lib"
