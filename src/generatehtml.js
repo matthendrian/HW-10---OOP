@@ -8,7 +8,7 @@ const generateManager = function (manager) {
             </div>
             <div class="card-body">
                 <p>ID: ${manager.id}</p>
-                <p>Role: ${manager.getRole()}</p>
+                <p class="Manager">Role: ${manager.getRole()}</p>
                 <p>Email: ${manager.email}</p>
                 <p>Office Number: ${manager.officeNumber}</p>
             </div>
@@ -27,7 +27,7 @@ const generateEngineer = function (engineer) {
             </div>
             <div class="card-body">
                 <p>ID: ${engineer.id}</p>
-                <p>Role: ${engineer.getRole()}</p>
+                <p class="Engineer">Role: ${engineer.getRole()}</p>
                 <p>Email: ${engineer.email}</p>
                 <p>Github: ${engineer.github}</p>
             </div>
@@ -45,7 +45,7 @@ const generateIntern = function (intern) {
             </div>
             <div class="card-body">
                 <p>ID: ${intern.id}</p>
-                <p>Role: ${intern.getRole()}</p>
+                <p class ="">Role: ${intern.getRole()}</p>
                 <p>Email: ${intern.email}</p>
                 <p>School: ${intern.school}</p>
             </div>
@@ -111,7 +111,7 @@ const generateTeamPage = function (allCards) {
       <header></header>
       <main>
           <div class="container">
-              <div class="row justify-content-center" id="team-cards">
+              <div class="row justify-content-center">
                   ${allCards}
               </div>
           </div>
